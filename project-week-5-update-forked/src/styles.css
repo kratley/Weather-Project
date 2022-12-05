@@ -1,0 +1,27 @@
+input {
+  border: 1px solid green;
+}
+
+button {
+  margin-top: 5px;
+  margin-right: 5px;
+  padding: 0px 10px;
+  background-color: green;
+  color: white;
+}
+
+img {
+  padding: 10px 50px 10px 10px;
+}
+h2 {
+  margin-top: 20px;
+}
+
+h1 {
+  color: green;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}

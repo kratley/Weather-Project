@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+        <title>Weather Today</title>
+        <meta charset="UTF-8" />
+        <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+          crossorigin="anonymous"
+        />
+      </head>
+
+      <body>
+        <form id="search-form">
+          <input
+            type="search"
+            placeholder="Type a city..."
+            autofocus="on"
+            autocomplete="off"
+            id="city-input"
+            class="form-control shadow-sm"
+          />
+          <button class="search">Search</button>
+          <button class="current">Current</button>
+        </form>
+
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <img src="src/Image/Rain.jpeg" alt="" width="300" />
+            </div>
+
+            <div class="col">
+              <h2 id="temperature"></h2>
+              <h1 id="city"></h1>
+              <p id="date"></p>
+            </div>
+            <div class="col">
+              <p Humidity: id="humidity"></p>
+              <p Wind:  id="wind"> </p>
+              <p  id="description"> </p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col">
+              Sunday <br />
+              🌨 <br />
+              65 ℉
+            </div>
+            <div class="col">
+              Monday <br />
+              🌥 <br />
+              68 ℉
+            </div>
+            <div class="col">
+              Tuesday <br />
+              🌡 <br />
+              70 ℉
+            </div>
+            <div class="col">
+              Wednesday <br />
+              🌦 <br />
+              55 ℉
+            </div>
+            <div class="col">
+              Thursday <br />
+              🌨 <br />
+              62 ℉
+            </div>
+            <div class="col">
+              Friday <br />
+              ⛅ <br />
+              60 ℉
+            </div>
+            <div class="col">
+              Saturday <br />
+              🌤 <br />
+              50 ℉
+            </div>
+          </div>
+
+          <script src="src/index.js"></script>
+        </div>
+      </body>
+    </html>
+  </head>
+</html>
+<link rel="stylesheet" href="src/styles.css" />
