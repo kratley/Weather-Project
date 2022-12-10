@@ -25,3 +25,9 @@ h1 {
   max-width: 800px;
   margin: 0 auto;
 }
+
+a {
+  display: block;
+  margin: 0 auto;
+  padding: 50px 10px 10px 350px;
+}
